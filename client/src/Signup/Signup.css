@@ -1,0 +1,91 @@
+/* Signup.css */
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    font-family: 'Arial', sans-serif;
+}
+
+.signup-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.signup-form h1 {
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.signup-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.signup-form input {
+    width: calc(100% - 20px);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.signup-form input:focus {
+    border-color: #fdc3a6;
+}
+
+.signup-form button {
+    background: #f5576c;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.signup-form button:hover {
+    background: #d9455f;
+}
+
+.signup-form .create-account {
+    background: #f093fb;
+    margin-top: 1rem;
+}
+
+.signup-form .create-account:hover {
+    background: #e080f2;
+}
+
+.signup-form p {
+    margin-top: 1rem;
+    color: #777;
+}
+
+.signup-form p a {
+    color: #f5576c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.signup-form p a:hover {
+    color: #d9455f;
+}
+
+.signup-form .text-danger {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+    display: block;
+}

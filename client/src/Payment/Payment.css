@@ -1,0 +1,73 @@
+/* PaymentPage.css */
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+}
+
+.payment-header {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.payment-details {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.payment-details p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.payment-form label {
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.payment-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.payment-button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 1rem;
+}
+
+.payment-button:hover {
+    background: #218838;
+}

@@ -1,0 +1,46 @@
+/* PaymentSuccessPage.css */
+.payment-success-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.payment-success-message {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.payment-success-message h2 {
+    color: #43e97b;
+    margin-bottom: 1.5rem;
+}
+
+.payment-success-message p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.payment-success-message .product-name {
+    font-weight: bold;
+}
+
+.payment-success-message .total-amount {
+    font-weight: bold;
+    color: #38f9d7;
+}
+
+.payment-success-message .thank-you {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: #333;
+}

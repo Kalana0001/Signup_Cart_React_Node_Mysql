@@ -1,0 +1,75 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+}
+
+.home-header {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.home-link {
+    margin-bottom: 1rem;
+    color: #d72638;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.home-link:hover {
+    color: #9e1b23;
+}
+
+.cart-count {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.product-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.product-card p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.product-card button {
+    background: #d72638;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-right: 0.5rem;
+}
+
+.product-card button:hover {
+    background: #9e1b23;
+}
